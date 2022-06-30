@@ -1,7 +1,7 @@
 from PIL import Image
 import numpy as np
 
-file = input("Enter the image file name which consists of a digit number:")
+file = input("Enter the image file name that you want to view:")
 
 img = Image.open(file)
 img = img.resize((28, 28))
